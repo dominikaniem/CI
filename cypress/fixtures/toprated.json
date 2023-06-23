@@ -1,0 +1,10 @@
+{
+    "HoodieWithLogo": {
+        "Locator": "a[data-product_id='44']",
+        "Name": "Hoodie with Logo"
+    },
+    "Longsleeve": {
+        "Locator": "a[data-product_id='52']",
+        "Name": "Long Sleeve Tee"
+    }
+}

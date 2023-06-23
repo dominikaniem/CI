@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "devDependencies": {
+    "@faker-js/faker": "^8.0.2",
     "cypress": "^12.15.0"
   },
   "scripts": {
