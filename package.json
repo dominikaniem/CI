@@ -1,0 +1,22 @@
+{
+  "name": "ci",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dominikaniem/CI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dominikaniem/CI/issues"
+  },
+  "homepage": "https://github.com/dominikaniem/CI#readme",
+  "devDependencies": {
+    "@faker-js/faker": "^8.0.2"
+  }
+}
