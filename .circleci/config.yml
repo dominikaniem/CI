@@ -1,16 +1,14 @@
 version: 2.1
-# Uses the official Cypress Orb
-# https://circleci.com/developer/orbs/orb/cypress-io/cypress
 orbs:
   cypress: cypress-io/cypress@3
 workflows:
   build:
     jobs:
+    - cypress/install
+    - cypress/run:
+      requires: 
       - cypress/install
-      - cypress/run:
-        requires: 
-          - cypress/install
-      store_artifacts: true
-      parallelism: 2 
-      start-command: npm start
-      cypress-command: 'npx cypress run --record --parallel'
+    store_artifacts: true
+    parallelism: 2 
+    start-command: npm start
+    cypress-command: 'npx cypress run --record --parallel'
