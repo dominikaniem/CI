@@ -4,11 +4,25 @@ orbs:
 workflows:
   build:
     jobs:
-      - cypress/install
-      - cypress/run:
+        - cypress/install
+        - cypress/run:
           requires: 
-          - cypress/install
-    store_artifacts: true
-    parallelism: 2 
-    start-command: npm start
-    cypress-command: 'npx cypress run --record --parallel'
+            - cypress/install
+          store_artifacts: true
+          parallel: true
+          parallelism: 2 
+          group: 2 machines
+
+
+
+
+
+
+
+
+
+
+
+
+ # start-command: npm start
+ # cypress-command: 'npx cypress run --record --parallel'
