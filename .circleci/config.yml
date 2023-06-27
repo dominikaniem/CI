@@ -6,12 +6,12 @@ workflows:
     jobs:
         - cypress/install
         - cypress/run:
-          requires: 
-            - cypress/install
-          store_artifacts: true
-          parallel: true
-          parallelism: 2 
-          group: 2 machines
+            requires: 
+              - cypress/install
+            store_artifacts: true
+            parallel:
+            parallelism: 2 
+            group: 2 machines
 
 
 
