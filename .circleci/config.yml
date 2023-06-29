@@ -8,7 +8,6 @@ workflows:
           cypress-command: npx cypress run --parallel --record
           parallelism: 2
           start-command: npm run start
-          store_artifacts: true
 
 # version: 2.1
 # orbs:
