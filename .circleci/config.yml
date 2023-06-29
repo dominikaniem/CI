@@ -17,7 +17,7 @@ workflows:
             spec: cypress/e2e/T2.cy.js
             parallel: true
             parallelism: 2 
-            group: 2 machines
+
 
 
 
