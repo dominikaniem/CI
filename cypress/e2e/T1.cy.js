@@ -30,6 +30,4 @@ describe('Online Shop test automation', () => {
         accountPage.clickLoginButton()
         accountPage.checkVisibilityOfLoginError()
     })
-
-
 })

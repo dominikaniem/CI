@@ -9,7 +9,13 @@ workflows:
             requires: 
               - cypress/install
             store_artifacts: true
-            parallel:
+            spec: cypress/e2e/T1.cy.js
+        - cypress/run:
+            requires: 
+              - cypress/install
+            store_artifacts: true
+            spec: cypress/e2e/T2.cy.js
+            parallel: true
             parallelism: 2 
             group: 2 machines
 
