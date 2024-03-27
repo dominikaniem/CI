@@ -16,12 +16,12 @@ const orderConfirmation = '.woocommerce-order'
 class OrderPage {
 
     fillAllRequiredFields() {
-        cy.get(firstNameField).type(faker.name.firstName());
-        cy.get(lastNameField).type(faker.name.lastName());
+        cy.get(firstNameField).type(faker.person.firstName());
+        cy.get(lastNameField).type(faker.person.lastName());
         cy.get(countryDropdown).select(countryDropdownPoland, { force: true });
-        cy.get(adress1).type(faker.address.streetAddress());
-        cy.get(zipcode).type(faker.address.zipCode('##-###'));
-        cy.get(city).type(faker.address.city());
+        cy.get(adress1).type(faker.location.streetAddress());
+        cy.get(zipcode).type(faker.location.zipCode('##-###'));
+        cy.get(city).type(faker.location.city());
         cy.get(phone).type(faker.phone.number('+48 #########'));
         cy.get(email).type(faker.internet.email());
     }

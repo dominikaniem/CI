@@ -61,8 +61,8 @@ class HomePage {
         cy.get(dataBlockNameTop).within(() => {
             cy.get(TopRated.HoodieWithLogo.Locator).click()
         })
-
     }
+    
     clickGoToCartFromTopRated() {
         cy.get(dataBlockNameTop).within(() => {
             cy.get(checkCartFromProductLevel).click()

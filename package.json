@@ -8,7 +8,7 @@
     "cypress": "^12.15.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "T1"
   },
   "repository": {
     "type": "git",

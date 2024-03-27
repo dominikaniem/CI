@@ -3,7 +3,7 @@ const usernameEmailField = "#username"
 const passwordField = "#password"
 const loginButton = 'button[name=login]'
 const myAccountNavigation = ".woocommerce-MyAccount-navigation"
-const errorAfterWrongLogin = 'ul[role="alert"]'
+const errorAfterWrongLogin = 'div[role="alert"]'
 
 class AccountPage {
 
