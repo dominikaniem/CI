@@ -3,7 +3,7 @@ import { TopRated } from "./homePage";
 
 const productName = '.product-name'
 const removeItemButton = '.remove'
-const emptyCartAlert = '.wc-block-components-notice-banner__content'
+const emptyCartAlert = '.wc-empty-cart-message'
 const goToPaymentsButton = '.wc-proceed-to-checkout'
 
 
